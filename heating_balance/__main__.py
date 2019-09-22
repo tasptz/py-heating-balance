@@ -10,7 +10,7 @@ def load_surfaces(data, g):
         windows = [
             Window(
                 w['area'] * m2,
-                w['area_glass_ratio'],
+                w['glass_area_ratio'],
                 w['u'] * u,
                 w['g'],
                 g(ls['solar_radiation'], W / m2))
@@ -46,7 +46,7 @@ def main():
         surfaces = load_surfaces(d, g)
 
         volume = Volume(d['volume'] * m3,
-                        d['volume_air_ratio'],
+                        d['air_volume_ratio'],
                         surfaces,
                         air_temperature_inside)
 

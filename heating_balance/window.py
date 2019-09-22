@@ -1,7 +1,7 @@
 class Window:
-    def __init__(self, area, area_glass_ratio, u, g, solar_radiation):
+    def __init__(self, area, glass_area_ratio, u, g, solar_radiation):
         self.area = area
-        self.area_glass_ratio = area_glass_ratio
+        self.glass_area_ratio = glass_area_ratio
         self.u = u
         self.g = g
         self.solar_radiation = solar_radiation
@@ -10,4 +10,4 @@ class Window:
         return self.area * self.u * temperature_delta
 
     def solar_gain(self):
-        return self.area * self.area_glass_ratio * self.g * self.solar_radiation
+        return self.area * self.glass_area_ratio * self.g * self.solar_radiation
