@@ -1,0 +1,17 @@
+;very cold but sunny;;very cold & overcast;;cold & overcast;
+Living space;25;meter ** 2;25;meter ** 2;25;meter ** 2
+Air inside;20.0;degC;20.0;degC;20.0;degC
+Air outside;-15.0;degC;-10.0;degC;-5.0;degC
+Air volume;37.5;meter ** 3;37.5;meter ** 3;37.5;meter ** 3
+Surface;125.0;meter ** 2;125.0;meter ** 2;125.0;meter ** 2
+Surface loss;-864.1499999999999;watt;-740.6999999999999;watt;-617.25;watt
+Ventilation;0.4;1 / hour;0.4;1 / hour;0.4;1 / hour
+Ventilation eff.;0.83;dimensionless;0.83;dimensionless;0.83;dimensionless
+Ventilation loss;-30.00090406250001;watt;-25.71506062500001;watt;-21.429217187500008;watt
+Leakage;0.05;1 / hour;0.05;1 / hour;0.05;1 / hour
+Leakage loss;-22.059488281249997;watt;-18.9081328125;watt;-15.75677734375;watt
+Windows;4.5;meter ** 2;4.5;meter ** 2;4.5;meter ** 2
+Solar gain;320.0;watt;16.0;watt;16.0;watt
+Internal gain;125;watt;125;watt;125;watt
+Heat balance;-471.21039234374985;watt;-644.3231934374999;watt;-513.43599453125;watt
+Heat balance / m2;-18.848415693749995;watt / meter ** 2;-25.772927737499995;watt / meter ** 2;-20.53743978125;watt / meter ** 2
